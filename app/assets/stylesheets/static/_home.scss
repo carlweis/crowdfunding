@@ -1,0 +1,34 @@
+.hero {
+  background: linear-gradient(to right, #6b3d7e, #6471cd);
+  padding: 6em;
+  min-height: 25em;
+  text-align: center;
+
+  h1 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 0.5em;
+  }
+  p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: #d8cbdd;
+    margin-bottom: 1em;
+  }
+  a {
+    transition: background-color 300ms linear;
+    color: #fff;
+    background: transparent;
+    border: solid 2px #1ea3ff;
+    border-radius: 30px;
+    font-size: 0.85em;
+    font-weight: 500;
+    line-height: 48px;
+    min-width: 180px;
+    padding: 0.5em 1em;
+    display: inline-block;
+    &:hover, &:active, &:focus {
+      background: #1ea3ff;
+    }
+  }
+}
